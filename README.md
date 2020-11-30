@@ -25,9 +25,13 @@ MD Parameter File:
 - parameters.mdp
 
 Run Input Files: 
-- topology_gd.tpr (Simulations with guanidinium)
+- topology_gd.tpr (Simulation with guanidinium)
 
-- topology_nl.tpr (Simulations without ligand)
+- topology_nl.tpr (Simulation without ligand)
 
-- topology_ure.tpr (Simulations with urea)
+- topology_ure1.tpr (Simulation with urea, configuration 1)
+
+- topology_ure2.tpr (Simulations with urea, configuration 2)
+
+- topology_ure3.tpr (Simulations with urea, configuration 3)
 
