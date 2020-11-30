@@ -1,6 +1,6 @@
 # NAR-data-repo
 
-This project includes the simulation data of the Gd-II riboswitch.
+This project includes simulation data of the Gd-II riboswitch.
 
 Publication Information:
 
