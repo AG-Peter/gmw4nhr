@@ -1,0 +1,53 @@
+[ GAI ]
+ [ atoms ]
+; name  type  charge  chargegroup    
+    H7   HGU    0.4753      1   
+    N5   NGU   -0.9493      1   
+    H6   HGU    0.4753      1   
+    C1   CGU    0.9961      2   
+    N2   NGU   -0.9493      2   
+    H3   HGU    0.4753      2   
+    H4   HGU    0.4753      2   
+    N8   NGU   -0.9493      3   
+    H9   HGU    0.4753      3   
+   H10   HGU    0.4753      3   
+ [ bonds ]
+;  ai   aj  funct   c0         c1 
+   H7   N5    1   0.1012   2.1076e+05
+   N5   H6    1   0.1012   2.1076e+05
+   N5   C1    1   0.1340   3.8700e+05   
+   C1   N2    1   0.1340   3.8700e+05    
+   C1   N8    1   0.1340   3.8700e+05   
+   N2   H3    1   0.1012   2.1076e+05
+   N2   H4    1   0.1012   2.1076e+05
+   N8   H9    1   0.1012   2.1076e+05
+   N8  H10    1   0.1012   2.1076e+05
+[ angles ]
+;  ai   aj   ak  funct   angle     fc
+   H7   N5   H6    1    117.50   445.00   ;HNH
+   H7   N5   C1    1    121.25   390.00   ;CNH
+   H6   N5   C1    1    121.25   390.00   ;CNH
+   N5   C1   N2    1    120.00   560.00   ;NCN
+   N5   C1   N8    1    120.00   560.00   ;NCN
+   N2   C1   N8    1    120.00   560.00   ;NCN
+   C1   N2   H3    1    121.25   390.00   ;CNH
+   C1   N2   H4    1    121.25   390.00   ;CNH
+   H3   N2   H4    1    117.50   445.00   ;HNH
+   C1   N8   H9    1    121.25   390.00   ;CNH
+   C1   N8  H10    1    121.25   390.00   ;CNH
+   H9   N8  H10    1    117.50   445.00   ;HNH
+[ dihedrals ]
+;  ai   aj   ak   al  funct   C1    C2    C3     C4                      
+   H6   N5   C1   N2    5     0     80.2  0      0   ;NCNH
+   N5   C1   N2   H3    5     0     80.2  0      0   ;NCNH
+   N2   C1   N8   H9    5     0     80.2  0      0   ;NCNH
+[ impropers ]
+; GROMOS improper dihedrals
+;  ai   aj   ak   al  funct   angle     fc
+   C1   N2   N5   N8    2      0.00   334.4 ;CNNN
+   N5   C1   H6   H7    2      0.00   334.4 ;NCHH
+   N8   C1   H9  H10    2      0.00   334.4 ;NCHH
+[ exclusions ]
+;  ai   aj  funct  ;  GROMOS 1-4 exclusions
+
+
