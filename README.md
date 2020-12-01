@@ -1,9 +1,9 @@
 # NAR-data-repo
-=============================================
+=================
 This project includes simulation data of the Gd-II riboswitch.
 
 ## Publication Information:
-=============================================
+=================
 
 Title: Guanidine-II Aptamer Conformations and Ligand BindingModes through the Lens of Molecular Simulation
 
@@ -18,7 +18,7 @@ DOI:
 
 
 ## Data Information:
-=============================================
+=================
 
 ### Forcefield:
 DESRES RNA force field, implemented by Bussi, G. [here](https://github.com/srnas/ff/tree/desres) from  [Tan et al, PNAS 2018](http://10.1073/pnas.1713027115).: 
