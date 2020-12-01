@@ -1,4 +1,4 @@
-# NAR-data-repo
+# NAR2020 data-repository
 
 This project includes simulation data of the Gd-II riboswitch.
 
