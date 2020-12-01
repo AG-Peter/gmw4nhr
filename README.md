@@ -5,7 +5,7 @@ This project includes simulation data of the Gd-II riboswitch.
 ## Publication Information:
 
 
-Title: Guanidine-II Aptamer Conformations and Ligand BindingModes through the Lens of Molecular Simulation
+Title: Guanidine-II Aptamer Conformations and Ligand Binding Modes through the Lens of Molecular Simulation
 
 Authors: Jakob Steuer, Oleksandra Kukharenko, Kai Riedmiller, Joerg S. Hartig and Christine Peter
 
